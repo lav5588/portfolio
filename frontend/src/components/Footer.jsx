@@ -8,10 +8,10 @@ const Footer = () => {
     return (
         <div className="flex justify-between items-center  flex-col-reverse lg:flex-row gap-5 lg:mx-16 ">
             <div className="flex justify-between items-center flex-col md:flex-row gap-5 lg:basis-[60vw]">
-                <div className="text-White">
+                <div className="text-White text-xs sm:text-sm">
                     <p>&#169; 2024 Lav Kumar Yadav All rights reserved.</p>
                 </div>
-                <div className="text-White">
+                <div className="text-White text-xs sm:text-sm">
                     <a href="#" className="mr-3">Privacy Policy</a>
                     <a href="#" className="ml-3">Terms & Conditions</a>
                 </div>

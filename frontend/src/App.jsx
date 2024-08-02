@@ -33,7 +33,7 @@ const App = () => {
 
         <SkillsSection />
       </div>
-      <div className="min-h-[110vh]  bg-worksBgImage" id='works'>
+      <div className="pb-12  bg-worksBgImage" id='works'>
 
         <WorksSection />
       </div>
