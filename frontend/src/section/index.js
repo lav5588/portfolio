@@ -1,13 +1,15 @@
-import HomeSection from "./HomeSection";
 import AboutMeSection from "./AboutMeSection";
+import ContactSection from "./ContactSection";
+import HomeSection from "./HomeSection";
+import LeetCodeSection from "./LeetCodeSection";
 import SkillsSection from "./SkillsSection";
 import WorksSection from "./WorksSection";
-import ContactSection from "./ContactSection";
 
 export {
-    HomeSection,
     AboutMeSection,
+    ContactSection,
+    HomeSection,
+    LeetCodeSection,
     SkillsSection,
     WorksSection,
-    ContactSection
 }

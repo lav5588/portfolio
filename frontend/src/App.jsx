@@ -1,10 +1,19 @@
 import React from 'react'
 import {
+  BgAnimation,
   Footer,
   Header,
 } from './components'
-import { AboutMeSection, ContactSection, HomeSection, SkillsSection, WorksSection } from './section'
-import BgAnimation from './components/BgAnimation'
+import {
+  AboutMeSection,
+  ContactSection,
+  HomeSection,
+  LeetCodeSection,
+  SkillsSection,
+  WorksSection
+} from './section'
+
+
 
 const App = () => {
   return (
@@ -37,6 +46,9 @@ const App = () => {
 
         <WorksSection />
       </div>
+      <div className='xl:min-h-[100vh] bg-BG1'>
+        <LeetCodeSection />
+      </div>
       <div className="  bg-BG2" id='contact'>
 
         <ContactSection />
@@ -45,6 +57,7 @@ const App = () => {
         <Footer />
 
       </div>
+
 
     </div>
   )

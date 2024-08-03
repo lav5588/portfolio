@@ -1,28 +1,34 @@
-import Button from "./Button";
-import ModuleTitle from "./ModuleTitle";
-import Header from "./Header";
-import Footer from "./Footer";
-import NavigationBar from "./NavigationBar";
 import Aboutme from "./Aboutme";
-import Skills from "./Skills";
+import BgAnimation from "./BgAnimation";
+import Button from "./Button";
 import Contact from "./Contact";
-import HomeSectionProfile from "./HomeSectionProfile";
+import Footer from "./Footer";
+import Header from "./Header";
 import HomeSectionIntro from "./HomeSectionIntro";
+import HomeSectionProfile from "./HomeSectionProfile";
 import HomeSectionSkillsAndExperience from "./HomeSectionSkillsAndExperience";
+import LeetCode from "./LeetCode";
+import MaterialPopover from "./MaterialPopover";
+import ModuleTitle from "./ModuleTitle";
+import NavigationBar from "./NavigationBar";
+import Skills from "./Skills";
 import Works from "./Works";
 
 
 export {
-    Button,
-    ModuleTitle,
-    Header,
-    Footer,
-    NavigationBar,
     Aboutme,
-    Skills,
+    BgAnimation,
+    Button,
     Contact,
-    HomeSectionProfile,
+    Footer,
+    Header,
     HomeSectionIntro,
+    HomeSectionProfile,
     HomeSectionSkillsAndExperience,
+    LeetCode,
+    MaterialPopover,
+    ModuleTitle,
+    NavigationBar,
+    Skills,
     Works,
- };
+};
