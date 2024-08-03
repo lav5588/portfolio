@@ -18,9 +18,7 @@ import {
 const App = () => {
   return (
     <div className='min-w-96'>
-
-
-      <div>
+      <div >
         <Header />
         <div className='h-[0.01rem] bg-BG2 w-[80%] mx-auto'></div>
 

@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa6";
 import { FiSearch } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
 import MaterialPopover from "./MaterialPopover";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
@@ -12,8 +12,26 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
   const searchBtnRef = useRef();
+
+  const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
+  const [visible, setVisible] = useState(true);
+
+  const handleScroll = () => {
+    const currentScrollPos = window.pageYOffset;
+    const headerVisible = prevScrollPos > currentScrollPos;
+    setVisible(headerVisible);
+    setPrevScrollPos(currentScrollPos);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollPos]);
+
   return (
-    <div className='text-White flex justify-between mx-2 sm:mx-5 md:mx-8 lg:mx-10 xl:mx-15 2xl:mx-20 py-2'>
+    <div style={{ top: visible ? '0' : '-7.2rem', transition: 'top 0.3s' }} className=' fixed top-0 left-0 right-0 z-30  bg-BG1 text-White flex justify-between px-2 sm:px-5 md:px-8 lg:px-10 xl:px-15 2xl:px-20 py-2'>
       <div><span className='text-Brand1'>&lt;C/&gt;&nbsp;&nbsp;&nbsp;</span>
         <span>LAV&nbsp;</span>
         <span className="hidden sm:inline">KUMAR&nbsp;</span>
