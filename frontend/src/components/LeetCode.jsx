@@ -19,6 +19,16 @@ const slides = [
 
 const LeetCode = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
+    const [isZoomed, setIsZoomed] = useState(false);
+
+    const handleClick = () => {
+        setIsZoomed(!isZoomed);
+        if (!isZoomed) {
+          document.body.style.overflow = 'hidden'; // Disable scroll
+        } else {
+          document.body.style.overflow = 'auto'; // Enable scroll
+        }
+      };
 
     const handleNext = () => {
         setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
@@ -30,7 +40,7 @@ const LeetCode = () => {
 
     return (
 
-        <div className=" flex px-12 justify-center items-center ">
+        <div className={` flex px-12 justify-center items-center`}>
             <button
                 onClick={handleBack}
                 className="bg-BG2 p-3 rounded-[50%]"
@@ -42,7 +52,7 @@ const LeetCode = () => {
                     currentSlide === index ? (
                         <div key={index} className='flex flex-col justify-center items-center gap-12'>
                             <h1 className='text-xl text-Brand1 text-center'>{slide.title}</h1>
-                            <img src={slide.image} alt="31-july-2024-leetcode" className='md:w-[50%]'/>
+                            <img src={slide.image} alt="31-july-2024-leetcode" className={`md:w-[50%] ${isZoomed?"scale-[2]":""}`}  onClick={handleClick} />
                         </div>
                     ) : null
                 )
