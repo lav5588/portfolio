@@ -36,9 +36,9 @@ export default {
         'mobile': '390px',
       },
       backgroundImage: {
-        'aboutMeBgImage': 'url("About me background.svg")',
-        'skillsBgImage': 'url("Skills background.svg")',
-        'worksBgImage': 'url("Works background.svg")',
+        'aboutMeBgImage': 'url("/About me background.svg")',
+        'skillsBgImage': 'url("/Skills background.svg")',
+        'worksBgImage': 'url("/Works background.svg")',
       }
     },
   },
