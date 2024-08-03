@@ -13,7 +13,7 @@ const Header = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
   const searchBtnRef = useRef();
   return (
-    <div className='text-White flex justify-between mx-2 sm:mx-5 md:mx-8 lg:mx-10 xl:mx-15 2xl:mx-20'>
+    <div className='text-White flex justify-between mx-2 sm:mx-5 md:mx-8 lg:mx-10 xl:mx-15 2xl:mx-20 py-2'>
       <div><span className='text-Brand1'>&lt;C/&gt;&nbsp;&nbsp;&nbsp;</span>
         <span>LAV&nbsp;</span>
         <span className="hidden sm:inline">KUMAR&nbsp;</span>

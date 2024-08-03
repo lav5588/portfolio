@@ -3,7 +3,7 @@ import { FaCode } from "react-icons/fa6";
 
 const SkillsSection = () => {
     return (
-        <div className="mx-3 flex flex-col gap-10 relative">
+        <div className="mx-3 flex flex-col gap-10 relative py-12">
             <div>
                 <a href="#works">
                     <ModuleTitle title="Skills" />

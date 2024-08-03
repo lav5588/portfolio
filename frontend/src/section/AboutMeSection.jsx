@@ -3,7 +3,7 @@ import { Aboutme, ModuleTitle } from '../components'
 
 const AboutMeSection = () => {
   return (
-    <div className='mx-2 md:mx-10 lg:mx-40'>
+    <div className='mx-2 md:mx-10 lg:mx-40 py-12'>
       <div className='hidden lg:block'>
         <a href="#skills">
           <ModuleTitle />

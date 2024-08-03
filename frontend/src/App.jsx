@@ -8,15 +8,15 @@ import BgAnimation from './components/BgAnimation'
 
 const App = () => {
   return (
-    <div className='my-5'>
+    <div className='min-w-96'>
 
 
       <div>
         <Header />
-        <div className='h-[0.01rem] bg-BG2 w-[80%] mx-auto mt-4'></div>
+        <div className='h-[0.01rem] bg-BG2 w-[80%] mx-auto'></div>
 
       </div>
-      <div className="min-h-[100vh] relative  " id='home'>
+      <div className=" xl:min-h-[100vh] " id='home'>
 
         <HomeSection />
         {/* <div className='absolute bottom-0 h-full w-full'>
@@ -25,23 +25,23 @@ const App = () => {
 
 
       </div>
-      <div className="min-h-[100vh]  bg-aboutMeBgImage relative" id='about'>
+      <div className=" xl:min-h-[100vh]  bg-aboutMeBgImage relative" id='about'>
         <AboutMeSection />
 
       </div>
-      <div className="min-h-[100vh]  bg-skillsBgImage" id='skills'>
+      <div className=" xl:min-h-[100vh] bg-skillsBgImage" id='skills'>
 
         <SkillsSection />
       </div>
-      <div className="pb-12  bg-worksBgImage" id='works'>
+      <div className="xl:min-h-[100vh] bg-worksBgImage" id='works'>
 
         <WorksSection />
       </div>
-      <div className="min-h-[100vh]  bg-BG2" id='contact'>
+      <div className="  bg-BG2" id='contact'>
 
         <ContactSection />
       </div>
-      <div id="footer" className='mt-4'>
+      <div id="footer">
         <Footer />
 
       </div>

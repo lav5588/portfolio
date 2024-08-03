@@ -7,7 +7,7 @@ import Button from "./Button";
 
 const HomeSectionProfile = () => {
     return (
-        <div className=" text-White flex flex-col gap-7 border border-White  shadow-topShadow shadow-Brand1 border-4 justify-center items-center rounded-tl-[10rem] rounded-br-[10rem] w-80 p-8">
+        <div className=" text-White flex flex-col gap-7 border border-White  shadow-topShadow shadow-Brand1 border-4 justify-center items-center rounded-tl-[10rem] rounded-br-[10rem]  p-8">
             <div className="flex flex-col justify-center items-center gap-2">
                 <img src="lav.jpeg" alt="" className="h-24 rounded-[50%] w-24 border border-4 border-Brand1" />
                 <div>

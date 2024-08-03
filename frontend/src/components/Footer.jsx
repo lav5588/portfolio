@@ -6,10 +6,10 @@ import { SiLeetcode } from "react-icons/si";
 
 const Footer = () => {
     return (
-        <div className="flex justify-between items-center  flex-col-reverse lg:flex-row gap-5 lg:mx-16 ">
+        <div className="flex justify-between items-center py-4  flex-col-reverse lg:flex-row gap-5 lg:mx-16 ">
             <div className="flex justify-between items-center flex-col md:flex-row gap-5 lg:basis-[60vw]">
                 <div className="text-White text-xs sm:text-sm">
-                    <p>&#169; 2024 Lav Kumar Yadav All rights reserved.</p>
+                    <p>&#169; 2024 Lav Kumar Yadav &nbsp;&nbsp;All rights reserved.</p>
                 </div>
                 <div className="text-White text-xs sm:text-sm">
                     <a href="#" className="mr-3">Privacy Policy</a>

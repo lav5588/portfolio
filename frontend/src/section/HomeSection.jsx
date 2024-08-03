@@ -11,7 +11,7 @@ import {
 const HomeSection = () => {
   return (
 
-    <div className='flex justify-between gap-10 mx-4 mt-20'>
+    <div className='flex justify-between gap-10 mx-4 py-12'>
       <div className='h-full hidden md:block '>
         <NavigationBar />
       </div>
