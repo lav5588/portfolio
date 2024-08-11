@@ -7,6 +7,7 @@ import MaterialPopover from "./MaterialPopover";
 import { useEffect, useRef, useState } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import { RiTwitterXLine } from "react-icons/ri";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,6 +55,10 @@ const Header = () => {
           <a href='https://www.instagram.com/the_lav_kumar/' target="_blank" className="flex justify-center items-center gap-2">
             <FaInstagram className=" text-Brand1" />
             <span className="hidden md:block ">Instagram</span>
+          </a>
+          <a href='https://x.com/LavKuma65537724' target="_blank" className="flex justify-center items-center gap-2">
+            <RiTwitterXLine className=" text-Brand1" />
+            <span className="hidden md:block ">X</span>
           </a>
           {/* <a href='#' className="flex justify-center items-center gap-2">
             <AiOutlineDiscord className=" text-Brand1" />

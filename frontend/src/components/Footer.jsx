@@ -3,6 +3,7 @@ import { AiOutlineDiscord } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import { RiTwitterXLine } from "react-icons/ri";
 
 const Footer = () => {
     return (
@@ -21,6 +22,11 @@ const Footer = () => {
                     <div className="bg-Brand1 h-10 w-10 flex justify-center items-center rounded-[50%]">
                         <a href="https://www.instagram.com/the_lav_kumar/" className="">
                             <FaInstagram className='text-3xl' />
+                        </a>
+                    </div>
+                    <div className="bg-Brand1 h-10 w-10 flex justify-center items-center rounded-[50%]">
+                        <a href="https://x.com/LavKuma65537724" className="">
+                            <RiTwitterXLine className='text-3xl' />
                         </a>
                     </div>
                     {/* <div className="bg-Brand1 h-10 w-10 flex justify-center items-center rounded-[50%]">
