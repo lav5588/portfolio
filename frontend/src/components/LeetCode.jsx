@@ -3,6 +3,10 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const slides = [
     {
+        title: "31 August 2024",
+        image: '/LeeCode/31-August-2024-Leetcode.webp',
+    },
+    {
         title: "31 July 2024",
         image: '/LeeCode/31-July-2024-Leetcode.png',
     },
