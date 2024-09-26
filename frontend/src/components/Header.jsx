@@ -1,4 +1,4 @@
-import { FaInstagram } from "react-icons/fa6";
+import { FaFacebook, FaInstagram } from "react-icons/fa6";
 import { AiOutlineDiscord } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa6";
 import { FiSearch } from "react-icons/fi";
@@ -6,7 +6,7 @@ import { RxCross2 } from "react-icons/rx";
 import MaterialPopover from "./MaterialPopover";
 import { useEffect, useRef, useState } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import { SiGeeksforgeeks, SiLeetcode } from "react-icons/si";
 import { RiTwitterXLine } from "react-icons/ri";
 
 const Header = () => {
@@ -52,29 +52,37 @@ const Header = () => {
           <MaterialPopover btnRef={searchBtnRef} toggleMenu={toggleMenu}><input type="text" className="px-3 h-10  " placeholder="Search All" /></MaterialPopover>
         </div> */}
         <div className='hidden mobile:flex justify-center gap-6'>
+          <a href='https://www.facebook.com/thinkingboy.lavkumaryadav' target="_blank" className="flex justify-center items-center gap-2">
+            <FaFacebook className=" text-Brand1" />
+            <span className="hidden lg:block ">Facebook</span>
+          </a>
           <a href='https://www.instagram.com/the_lav_kumar/' target="_blank" className="flex justify-center items-center gap-2">
             <FaInstagram className=" text-Brand1" />
-            <span className="hidden md:block ">Instagram</span>
+            <span className="hidden lg:block ">Instagram</span>
           </a>
           <a href='https://x.com/LavKuma65537724' target="_blank" className="flex justify-center items-center gap-2">
             <RiTwitterXLine className=" text-Brand1" />
-            <span className="hidden md:block ">X</span>
+            <span className="hidden lg:block ">X</span>
           </a>
           {/* <a href='#' className="flex justify-center items-center gap-2">
             <AiOutlineDiscord className=" text-Brand1" />
-            <span className="hidden md:block ">Discord</span>
+            <span className="hidden lg:block ">Discord</span>
           </a> */}
           <a href='https://www.linkedin.com/in/lav-kumar-yadav-b26853223/' target="_blank" className="flex justify-center items-center gap-2">
             <FaLinkedinIn className=" text-Brand1" />
-            <span className="hidden md:block ">LinkedIn</span>
+            <span className="hidden lg:block ">LinkedIn</span>
           </a>
           <a href='https://leetcode.com/u/Lav5588/' target="_blank" className="flex justify-center items-center gap-2">
             <SiLeetcode className=" text-Brand1" />
-            <span className="hidden md:block ">LeetCode</span>
+            <span className="hidden lg:block ">LeetCode</span>
+          </a>
+          <a href='https://www.geeksforgeeks.org/user/lavkumaryawl1l/' target="_blank" className="flex justify-center items-center gap-2">
+            <SiGeeksforgeeks className=" text-Brand1" />
+            <span className="hidden lg:block ">GeeksForGeeks</span>
           </a>
           <a href='https://github.com/lav5588' target="_blank" className="flex justify-center items-center gap-2">
             <FaGithub className=" text-Brand1" />
-            <span className="hidden md:block ">Github</span>
+            <span className="hidden lg:block ">Github</span>
           </a>
         </div>
       </div>

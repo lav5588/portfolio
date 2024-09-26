@@ -1,8 +1,8 @@
-import { FaInstagram } from "react-icons/fa6";
+import { FaFacebook, FaInstagram } from "react-icons/fa6";
 import { AiOutlineDiscord } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
+import { SiGeeksforgeeks, SiLeetcode } from "react-icons/si";
 import { RiTwitterXLine } from "react-icons/ri";
 
 const Footer = () => {
@@ -19,6 +19,11 @@ const Footer = () => {
             </div>
             <div>
                 <div className="flex gap-4 justify-center items-center  ">
+                    <div className="bg-Brand1 h-10 w-10 flex justify-center items-center rounded-[50%]">
+                        <a href="https://www.facebook.com/thinkingboy.lavkumaryadav" className="">
+                            <FaFacebook className='text-3xl' />
+                        </a>
+                    </div>
                     <div className="bg-Brand1 h-10 w-10 flex justify-center items-center rounded-[50%]">
                         <a href="https://www.instagram.com/the_lav_kumar/" className="">
                             <FaInstagram className='text-3xl' />
@@ -42,6 +47,11 @@ const Footer = () => {
                     <div className="bg-Brand1 h-10 w-10 flex justify-center items-center rounded-[50%]">
                         <a href="https://leetcode.com/u/Lav5588/">
                             <SiLeetcode className='text-3xl ' />
+                        </a>
+                    </div>
+                    <div className="bg-Brand1 h-10 w-10 flex justify-center items-center rounded-[50%]">
+                        <a href="https://www.geeksforgeeks.org/user/lavkumaryawl1l/">
+                            <SiGeeksforgeeks className='text-3xl ' />
                         </a>
                     </div>
                     <div className="bg-Brand1 h-10 w-10 flex justify-center items-center rounded-[50%]">

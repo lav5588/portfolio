@@ -34,26 +34,35 @@ const HomeSectionProfile = () => {
                     <p>Full-stack / Student</p>
                 </div>
                 
-                <div className="flex gap-4">
+                <div className="flex gap-4 justify-center">
                     <h1 className="bg-Brand1 rounded-3xl text-black px-2">HTML</h1>
                     <h1 className="bg-Brand1 rounded-3xl text-black px-2">CSS</h1>
                     <h1 className="bg-Brand1 rounded-3xl text-black px-2">JS</h1>
                     <h1 className="bg-Brand1 rounded-3xl text-black px-2">REACT</h1>
                 </div>
-                <div className="flex gap-4">
+                <div className="flex gap-4 justify-center">
                     <h1 className="bg-Brand1 rounded-3xl text-black px-2">Node</h1>
                     <h1 className="bg-Brand1 rounded-3xl text-black px-2">Express</h1>
                     <h1 className="bg-Brand1 rounded-3xl text-black px-2">Tailwind</h1>
                 </div>
-                <div className="flex gap-4">
+                <div className="flex gap-4 justify-center">
                     <h1 className="bg-Brand1 rounded-3xl text-black px-2">Mongo</h1>
                     <h1 className="bg-Brand1 rounded-3xl text-black px-2">C</h1>
                     <h1 className="bg-Brand1 rounded-3xl text-black px-2">C++</h1>
                     <h1 className="bg-Brand1 rounded-3xl text-black px-2">Python</h1>
                 </div>
-                <div className="flex gap-4">
+                <div className="flex gap-4 justify-center">
+                    <h1 className="bg-Brand1 rounded-3xl text-black px-2">Git</h1>
                     <h1 className="bg-Brand1 rounded-3xl text-black px-2">GitHub</h1>
                     <h1 className="bg-Brand1 rounded-3xl text-black px-2">Postman</h1>
+                </div>
+                <div className="flex gap-4 justify-center">
+                    <h1 className="bg-Brand1 rounded-3xl text-black px-2">Docker</h1>
+                    <h1 className="bg-Brand1 rounded-3xl text-black px-2">Linux</h1>
+                    
+                </div>
+                <div className="flex gap-4 justify-center">
+                    <h1 className="bg-Brand1 rounded-3xl text-black px-2">Problem Solving</h1>
                 </div>
             </div>
             <Button className="bg-White text-[#000000]">

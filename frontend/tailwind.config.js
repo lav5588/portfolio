@@ -28,8 +28,10 @@ export default {
         "C++": "#00599C",
         "Python": "#FFD43B",
         "GitHub": "#2E4053",
+        "Git" : "#F14E32",
         "Postman": "#FF6C37",
-        "LeetCode": "#FF9C00"
+        "LeetCode": "#FF9C00",
+        "Docker": "#0db7ed"
 
       },
       screens: {
