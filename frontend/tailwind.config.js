@@ -31,8 +31,8 @@ export default {
         "Git" : "#F14E32",
         "Postman": "#FF6C37",
         "LeetCode": "#FF9C00",
-        "Docker": "#0db7ed"
-
+        "Docker": "#0db7ed",
+        "Next" : "black"
       },
       screens: {
         'mobile': '390px',
