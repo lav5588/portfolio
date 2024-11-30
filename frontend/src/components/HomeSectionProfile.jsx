@@ -66,7 +66,7 @@ const HomeSectionProfile = () => {
                 </div>
             </div>
             <Button className="bg-White text-[#000000]">
-                <a  href="https://drive.google.com/file/d/1N7tF0w_1bocWnFw5irLmZUUVzH2K2hHm/view?usp=drivesdk" target="_blank">Download Resume<MdOutlineFileDownload className="inline" /></a>
+                <a  href={import.meta.env.VITE_RESUME_LINK} target="_blank">Download Resume<MdOutlineFileDownload className="inline" /></a>
             </Button>
         </div>
     )
