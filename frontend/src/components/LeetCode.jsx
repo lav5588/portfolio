@@ -1,7 +1,11 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const slides = [
+    {
+        title: "31 December 2024",
+        image: '/LeeCode/31-December-2024-Leetcode.webp',
+    },
     {
         title: "30 November 2024",
         image: '/LeeCode/30-November-2024-Leetcode.webp',
