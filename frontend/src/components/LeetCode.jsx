@@ -1,7 +1,11 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const slides = [
+    {
+        title: "31 January 2025",
+        image: '/LeeCode/31-January-2025-Leetcode.webp',
+    },
     {
         title: "31 December 2024",
         image: '/LeeCode/31-December-2024-Leetcode.webp',
@@ -40,11 +44,11 @@ const LeetCode = () => {
     const handleClick = () => {
         setIsZoomed(!isZoomed);
         if (!isZoomed) {
-          document.body.style.overflow = 'hidden'; // Disable scroll
+            document.body.style.overflow = 'hidden'; // Disable scroll
         } else {
-          document.body.style.overflow = 'auto'; // Enable scroll
+            document.body.style.overflow = 'auto'; // Enable scroll
         }
-      };
+    };
 
     const handleNext = () => {
         setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
@@ -68,12 +72,12 @@ const LeetCode = () => {
                     currentSlide === index ? (
                         <div key={index} className='flex flex-col justify-center items-center gap-12'>
                             <h1 className='text-xl text-Brand1 text-center'>{slide.title}</h1>
-                            <img src={slide.image} alt="31-july-2024-leetcode" className={`md:w-[50%] ${isZoomed?"scale-[2]":""}`}  onClick={handleClick} />
+                            <img src={slide.image} alt="31-july-2024-leetcode" className={`md:w-[50%] ${isZoomed ? "scale-[2]" : ""}`} onClick={handleClick} />
                         </div>
                     ) : null
                 )
             }
-           
+
             <button
                 onClick={handleNext}
                 className="bg-BG2 p-3 rounded-[50%]"
