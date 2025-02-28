@@ -3,6 +3,10 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const slides = [
     {
+        title: "28 February 2025",
+        image: '/LeeCode/28-Feb-2025-Leetcode.webp',
+    },
+    {
         title: "31 January 2025",
         image: '/LeeCode/31-January-2025-Leetcode.webp',
     },
@@ -72,7 +76,7 @@ const LeetCode = () => {
                     currentSlide === index ? (
                         <div key={index} className='flex flex-col justify-center items-center gap-12'>
                             <h1 className='text-xl text-Brand1 text-center'>{slide.title}</h1>
-                            <img src={slide.image} alt="31-july-2024-leetcode" className={`md:w-[50%] ${isZoomed ? "scale-[2]" : ""}`} onClick={handleClick} />
+                            <img src={slide.image} alt={slide.title} className={`md:w-[50%] ${isZoomed ? "scale-[2]" : ""}`} onClick={handleClick} />
                         </div>
                     ) : null
                 )

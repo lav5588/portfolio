@@ -3,13 +3,18 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const slides = [
   {
+    title: "WriteFlow",
+    image: 'Works/writeflow.webp',
+    url: `https://writeflow-m57w.onrender.com/`,
+  },
+  {
     title: "Event Booking and Management System",
-    image: 'works-event-image.png',
+    image: 'Works/event.png',
     url: `https://event-booking-and-management-system.onrender.com`,
   },
   {
     title: "Real-time Chat Application",
-    image: 'works-chat-image.png',
+    image: 'Works/chat.png',
     url: `https://real-time-chat-1-ss9t.onrender.com`,
   },
 
